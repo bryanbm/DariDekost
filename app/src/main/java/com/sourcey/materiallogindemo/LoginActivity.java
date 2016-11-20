@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.sourcey.materiallogindemo.loginactivity.SignupActivity;
+import com.sourcey.materiallogindemo.loginactivity.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
