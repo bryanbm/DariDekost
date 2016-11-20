@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cardView"
     android:layout_width="match_parent"
@@ -19,8 +18,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="centerCrop"
-            tools:src="@drawable/a" />
+            android:scaleType="centerCrop" />
 
         <TextView
             android:id="@+id/textViewJudul"
@@ -71,8 +69,7 @@
             android:layout_height="48dp"
             android:layout_below="@+id/textViewDeskripsi"
             android:layout_toLeftOf="@+id/buttonShare"
-            android:tint="#757575"
-            app:srcCompat="@drawable/ic_favorite_black_24dp" />
+            android:tint="#757575" />
 
         <ImageButton
             android:id="@+id/buttonShare"
@@ -82,8 +79,7 @@
             android:layout_alignParentRight="true"
             android:layout_below="@+id/textViewDeskripsi"
             android:layout_marginRight="16dp"
-            android:tint="#757575"
-            app:srcCompat="@drawable/ic_share_black_24dp" />
+            android:tint="#757575" />
 
     </RelativeLayout>
 
